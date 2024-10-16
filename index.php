@@ -43,7 +43,8 @@
                     your practice, leading you toward deeper
                     mindfulness, personal growth, and a profound connection with yourself.</p>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 hero-image" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">
+            <div class="col-lg-6 col-md-12 col-sm-12 hero-image" data-aos="fade-up" data-aos-duration="1200"
+                data-aos-easing="ease-in-out">
                 <img src="./images/hero_img.png" class='img-fluid' alt="Responsive Image">
             </div>
         </div>
@@ -53,7 +54,7 @@
 
     <section class="container aboutus mt-5">
         <h1 class="text-center" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">About
-            <span>us</span>
+            <span>Ankur</span>
         </h1>
         <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" data-aos-easing="ease-in-out">
             Rishikesh Yoga Alliance is a global professional association representing the yoga community. We are
@@ -185,41 +186,49 @@
     </section>
 
     <section class="container yoga_courses mt-3" data-aos="fade-up" data-aos-duration="1200">
-    <h1 class="text-center">Yoga <span>Courses</span></h1>
+        <h1 class="text-center">Yoga <span>Courses</span></h1>
 
-    <div class="container my-5">
-        <div class="row text-center">
-            <div class="col-12 col-lg-3 col-sm-6 col-md-6 my-2" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="100">
-                <div class="box">
-                    <img src="./images/yoga_box1.png" alt="Image 1">
-                    <h4>100 HOURS Yoga TTC</h4>
-                    <p>A foundational program designed to introduce the principles of yoga and<br>deepen your personal<br>practice.</p>
+        <div class="container my-5">
+            <div class="row text-center">
+                <div class="col-12 col-lg-3 col-sm-6 col-md-6 my-2" data-aos="zoom-in" data-aos-duration="1200"
+                    data-aos-delay="100">
+                    <div class="box">
+                        <img src="./images/yoga_box1.png" alt="Image 1">
+                        <h4>100 HOURS Yoga TTC</h4>
+                        <p>A foundational program designed to introduce the principles of yoga and<br>deepen your
+                            personal<br>practice.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-3 col-sm-6 col-md-6 my-2" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200">
-                <div class="box">
-                    <img src="./images/yoga_box2.png" alt="Image 2">
-                    <h4>200 HOURS Yoga TTC</h4>
-                    <p>This course offers a comprehensive introduction to yoga philosophy, asana practice, and teaching methodology.</p>
+                <div class="col-12 col-lg-3 col-sm-6 col-md-6 my-2" data-aos="zoom-in" data-aos-duration="1200"
+                    data-aos-delay="200">
+                    <div class="box">
+                        <img src="./images/yoga_box2.png" alt="Image 2">
+                        <h4>200 HOURS Yoga TTC</h4>
+                        <p>This course offers a comprehensive introduction to yoga philosophy, asana practice, and
+                            teaching methodology.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-3 col-sm-6 col-md-6 my-2" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">
-                <div class="box">
-                    <img src="./images/yoga_box3.png" alt="Image 3">
-                    <h4>300 HOURS Yoga TTC</h4>
-                    <p>Designed for those seeking advanced training, this program covers deeper aspects of yoga philosophy and practice.</p>
+                <div class="col-12 col-lg-3 col-sm-6 col-md-6 my-2" data-aos="zoom-in" data-aos-duration="1200"
+                    data-aos-delay="300">
+                    <div class="box">
+                        <img src="./images/yoga_box3.png" alt="Image 3">
+                        <h4>300 HOURS Yoga TTC</h4>
+                        <p>Designed for those seeking advanced training, this program covers deeper aspects of yoga
+                            philosophy and practice.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-lg-3 col-sm-6 col-md-6 my-2" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="400">
-                <div class="box">
-                    <img src="./images/yoga_box4.png" alt="Image 4">
-                    <h4>500 HOURS Yoga TTC</h4>
-                    <p>A complete yoga teacher training program that takes you from foundational knowledge to advanced techniques.</p>
+                <div class="col-12 col-lg-3 col-sm-6 col-md-6 my-2" data-aos="zoom-in" data-aos-duration="1200"
+                    data-aos-delay="400">
+                    <div class="box">
+                        <img src="./images/yoga_box4.png" alt="Image 4">
+                        <h4>500 HOURS Yoga TTC</h4>
+                        <p>A complete yoga teacher training program that takes you from foundational knowledge to
+                            advanced techniques.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
@@ -577,7 +586,7 @@
     </section>
     <?php include('scroll_top.php'); ?>
 
-   
+
     <?php include('footer.php'); ?>
 
 </body>
