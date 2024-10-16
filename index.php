@@ -54,7 +54,7 @@
 
     <section class="container aboutus mt-5">
         <h1 class="text-center" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">About
-            <span>Ankur</span>
+            <span>Us</span>
         </h1>
         <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" data-aos-easing="ease-in-out">
             Rishikesh Yoga Alliance is a global professional association representing the yoga community. We are
