@@ -120,7 +120,7 @@
         const message = document.getElementById('message').value.trim();
 
         try {
-            const response = await fetch('http://localhost:5000/api/contact/submit', {
+            const response = await fetch('/api2/contact/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
