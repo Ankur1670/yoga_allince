@@ -265,7 +265,7 @@
             submitButtonSpinner.classList.remove('d-none');
 
             try {
-                const response = await fetch('/api2/school/register', {
+                const response = await fetch('/api/school/register', {
                     method: 'POST',
                     body: formData
                 });
