@@ -1,0 +1,1222 @@
+    
+    /* UNIVERSAL CLASSES */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h1{
+        font-family: "Poppins", sans-serif;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin-top: 34px;
+        font-weight: 600;
+
+        color: #173B45;
+    }
+    h1>span{
+        font-family: "Poppins", sans-serif;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 34px;
+        color: #61030b;
+    }
+    h2{
+        font-family: "Poppins", sans-serif;
+        font-size: 2.0rem;
+        text-transform: uppercase;
+        font-weight: 600;
+
+    }
+    h3{
+        font-family: "Poppins", sans-serif;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 500;
+
+    }
+    
+    h4{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.75rem;
+        color: #45060b !important;
+        text-transform: uppercase;
+
+        font-weight: 400;
+
+    }
+    h5{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        color: #173B45;
+        font-weight: 400;
+
+    }
+
+    p{
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        color: #173B45;
+        line-height: 1.7rem;
+        margin-top: 14px;
+        
+
+    }
+    .p_rishikesh{
+      font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        color: white;
+        line-height: 1.7rem;
+        margin-top: 14px;
+        
+    }
+    .btn_main {
+      background-color: #45060b;
+      color: white;
+      padding: 10px 20px;
+      border: 2px solid transparent;
+      text-align: center;
+      display: inline-block;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+      width: 300px;
+      margin-bottom: 23px ;
+      
+    }
+  .container_btn{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+    
+    .btn_main a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .btn_main:hover {
+      background-color: white;
+      color: #45060b;
+      border-color: #45060b;
+    }
+    
+    .btn_main:hover a {
+      color: #45060b;
+    }
+    
+    /* Custom CSS for Header */
+   
+     
+      .navbar {
+        background-color: #45060b;
+        position: fixed;
+      }
+  
+      .navbar .nav-link {
+        color: #FFFFFF !important;
+        padding-left: 18px;
+        margin-left: 18px;
+      }
+  
+      .navbar .dropdown-menu {
+        background-color: #45060b;
+      }
+  
+      .navbar .dropdown-item {
+        color: #FFFFFF;
+      }
+  
+      .navbar .dropdown-item:hover {
+        background-color: #FFF0BA;
+        color: black;
+      }
+  
+      .navbar-brand img {
+        height: 100px;
+        width: auto;
+      }
+  
+      /* Show dropdown menu on hover */
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+      }
+  
+      .navbar-brand img {
+        height: 100px; /* Ensures the logo is not too large */
+        width: auto;
+      }
+  
+      .navbar button {
+        color: #FFFFFF !important;
+        background-color: #FF5722;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 20px;
+      }
+      .navbar button:hover{
+        border: none;
+      }
+      button a{
+        text-decoration: none;
+        color: white;
+      }
+
+  
+     
+
+      /* hero section  */
+      .hero-section {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+      }
+      .hero-content {
+        text-align: left;
+      }
+      .hero-image img {
+        max-width: 100%;
+        height: auto;
+      }
+
+
+      /* about section  */
+
+      .aboutus .box {
+        background-color:#FEF9D9;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+      }
+  
+      .aboutus .box img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+  
+      .aboutus .box p {
+        font-size: 1rem;
+        color: black;
+      }
+      
+      /* our vision section  */
+
+      .our_vision {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+      }
+      .vision-content {
+        text-align: justify;
+
+      }
+      .our_vision img {
+        width:400px;
+        height: 300px;
+        margin-top: -30px;
+
+      }
+
+      /* yoga section  */
+      .yoga_section{
+        background: #FEF9D9;
+        margin-top: 13px;
+      }
+      .yoga_content{
+        padding: 16px;
+      }
+      .what_is_yoga ul{
+        list-style: none;
+      }
+      .what_is_yoga i{
+        padding: 10px;
+      }
+
+      /* alliance section  */
+
+      .yoga_alli {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+      }
+      .alliance-content {
+        text-align: justify;
+
+      }
+      .yoga_alli img {
+        width:400px;
+        height: 300px;
+        margin-top: -30px;
+
+      }
+
+      /* yoga course  */
+      .yoga_courses .box {
+        background-color: #FEF9D9;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 300px; /* Limit box width */
+        margin: 0 auto;   /* Center the boxes */
+    }
+    
+    .yoga_courses .box img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    
+    .yoga_courses .box p {
+        font-size: 1rem;
+        color: black;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .yoga_courses .box {
+            max-width: 100%; /* Remove fixed width for better tablet view */
+            margin-bottom: 20px;
+        }
+    }
+    
+    
+
+    
+
+
+
+/* our founder  */
+.our_founders .box {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Set a specific width for the box */
+  margin: 0 auto; /* Center the boxes */
+  border: 2px solid black;
+}
+
+.our_founders .box img {
+  max-width: 98%; /* Set the image width to be slightly smaller than the box */
+  height: auto;   /* Maintain the aspect ratio */
+  margin-bottom: 10px;
+  border-radius: 8px; /* Optional: Add a border-radius for a rounded image */
+}
+
+.our_founders .box p {
+  font-size: 1rem;
+  color: white;
+}
+
+
+/* our member  */
+.our_member .box {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  max-width: 100%; /* Remove fixed width, allow box to take up available space */
+  margin: 0 auto; /* Center the boxes */
+}
+
+.our_member .box img {
+  max-width: 98%; /* Adjust the image width slightly smaller than the box */
+  height: auto;   /* Maintain the aspect ratio */
+  margin-bottom: 10px;
+  border-radius: 8px; /* Optional: Add a border-radius for a rounded image */
+}
+
+.our_member .box p {
+  font-size: 1rem;
+  color: black; /* Ensure the text color contrasts with the white background */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .our_member .box {
+    max-width: 90%; /* Ensure boxes adjust on smaller tablet screens */
+  }
+}
+
+/* For even smaller screens like mobile */
+@media (max-width: 576px) {
+  .our_member .box {
+    max-width: 100%; /* Full-width on small devices */
+    margin-bottom: 20px; /* Add some spacing between boxes */
+  }
+}
+
+
+
+/* contact us section  */
+
+.contact-form {
+  background-color: #FEF9D9;
+  border-radius: 10px;
+}
+
+.contact-form .form-control, 
+.contact-form .form-select, 
+.contact-form textarea {
+  border-radius: 5px;
+}
+
+
+
+/* frequenty asked question  */
+.faq-section .faq-question {
+  background-color: white; /* Grey background */
+  color: #45060b;
+  cursor: pointer;
+  border:2px solid #45060b;
+  border-radius: 5px;
+}
+
+.faq-section .faq-answer {
+   /* Lighter grey for answers */
+  color: white;
+  border-radius: 5px;
+  margin-top: -5px;
+  border: 2px solid #45060b;
+  background-color: #45060b;
+}
+
+.toggle-sign {
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+  color: #45060b;
+  
+}
+
+
+
+
+
+
+/* footer section  */
+.footer {
+  background-color: #45060b; /* Grey background for footer */
+  color: white;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.footer .footer-item {
+  margin-bottom: 10px;
+}
+
+.footer .footer-item a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.footer .footer-item i {
+  font-size: 1.5rem; /* Adjust icon size */
+  margin-left: -40px;
+  color: white;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: space-around; /* Distribute icons evenly */
+}
+
+
+/* ABOUT YOGA ASSOCIATION PAGE  */
+
+.about_association ul{
+  list-style: none;
+}
+.about_association i{
+  padding: 9px;
+  color:#45060b ;
+}
+
+.box_section{
+  background-color: #FFF0BA;
+  padding: 23px;
+}
+
+.box_section .box {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.box_section .box img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.box_section .box p {
+  font-size: 1rem;
+  color: #264751;
+}
+
+.vision_yoga_association .image-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 20px; /* Add space above image */
+  margin-bottom: 20px;
+}
+.vision_yoga_association .image-wrapper img {
+  width: 100%;   /* Full width */
+  height: auto;  /* Maintain aspect ratio */
+  max-height: 300px;  /* Set desired maximum height */
+  object-fit: cover;  /* Ensures the image covers the area without stretching */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Add shadow */
+
+}
+
+
+
+.vision_yoga_association ul{
+  list-style: none;
+}
+.vision_yoga_association i{
+  padding: 9px;
+  color:#45060b ;
+}
+
+.mission_yoga_alliance ul{
+  list-style: none;
+}
+.mission_yoga_alliance i{
+  padding: 9px;
+  color:#45060b ;
+}
+
+
+
+
+.commitment_section .faq_container{
+  background-color: #FFF0BA;
+  padding: 23px;
+}
+
+.commitment_section .faq-item {
+  border-radius: 5px; /* Optional: Round corners */
+   
+}
+
+.commitment_section .faq-answer {
+  background-color: #45060b; /* Optional: Background for answers */
+  color:white;
+}
+
+.commitment_section .image-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 20px; /* Space above the image */
+}
+
+.commitment_section .image-wrapper img {
+  width: 100%;   /* Full width */
+  height: auto;  /* Maintain aspect ratio */
+  max-height: 300px;  /* Set desired maximum height */
+  object-fit: cover;  /* Ensure the image covers the area without stretching */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Add shadow */
+  border-radius: 8px; /* Optional: round the corners */
+}
+
+
+
+.plan_yoga_alliance ul{
+  list-style: none;
+}
+.plan_yoga_alliance i{
+  padding: 9px;
+  color:#45060b ;
+}
+
+
+/* ABOUT RISHIKESH PAGE  */
+
+.aboutrsihikesh .image-wrapper {
+  width: 100%;
+  height: auto;
+  margin-top: 20px; /* Space above the image */
+}
+
+.aboutrsihikesh .image-wrapper img {
+  width: 100%;   /* Full width */
+  height: auto;  /* Maintain aspect ratio */
+  max-height: 300px;  /* Set desired maximum height */
+  object-fit: cover;  /* Ensure the image covers the area without stretching */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Add shadow */
+  border-radius: 8px; /* Optional: round the corners */
+}
+
+
+.rishikesh_essence .imageContainer {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sightseeing-grid {
+  
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.sightseeing-item {
+  width: 300px;
+  text-align: center;
+}
+
+.sightseeing-card {
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+ 
+
+}
+
+.sightseeing-card-front,
+.sightseeing-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 12px;
+
+  transition: transform 0.6s;
+}
+
+.sightseeing-card-front {
+  transform: rotateY(0deg);
+
+}
+
+.sightseeing-card-back {
+  background-color: #45060b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transform: rotateY(180deg);
+}
+
+.sightseeing-card:hover .sightseeing-card-front {
+  transform: rotateY(180deg);
+}
+
+.sightseeing-card:hover .sightseeing-card-back {
+  transform: rotateY(360deg);
+}
+
+.sightseeing-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+
+
+}
+
+
+.box {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center; /* Center align text inside the box */
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box img {
+  height: 200px; /* Fixed height for all images */
+  width: 100%; /* Ensure the images take up the full width of the box */
+  object-fit: cover; /* Ensure images keep aspect ratio while filling the box */
+  padding: 15px; /* Padding around the image */
+  display: block;
+  margin: 0 auto; /* Center align the images */
+}
+
+.box-content {
+  padding: 15px;
+}
+
+.box-content h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.box-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center; /* Ensure the boxes are centered in the row */
+}
+
+.carousel-item .col-md-4 {
+  padding: 0 10px; /* Add some horizontal padding to space out the boxes */
+}
+
+/* RESPONSIVE CODE */
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .carousel-item {
+    display: block; /* Stack boxes vertically in mobile view */
+  }
+
+  .carousel-item .col-md-4 {
+    padding: 10px 0; /* Add vertical spacing between boxes */
+  }
+}
+
+
+/* ABOUT MEMBER AND FOUNDER  */
+
+.about_founder_section {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.founder-box {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.8s ease;
+  transform: scale(1);
+}
+
+.square-image {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the whole image is shown */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.founder-info h3 {
+  margin-top: 0;
+}
+
+.founder-info p {
+  margin: 5px 0;
+}
+
+.founder-box:hover {
+  background-color: #45060b;
+  color: white;
+  transform: scale(1.05);
+}
+
+.founder-box:hover h3,
+.founder-box:hover p,
+.founder-box:hover .founder-info {
+  color: white;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .founder-box {
+      flex-direction: column; /* Stack elements in a column for mobile */
+      align-items: center; /* Center align */
+  }
+
+  .founder-image {
+      margin-bottom: 20px; /* Add space below image */
+  }
+
+  .founder-info {
+      padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .square-image {
+      width: 80%; /* Adjust image width for mobile */
+      height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
+/* OUR REGISTERD SCHOOL PAGE */
+
+.our_registered_school .content-box {
+  display: none;
+  margin-left: 23px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1); /* Inner shadow */
+
+}
+
+
+.our_registered_school .content-box.active {
+  display: block;
+}
+
+.our_registered_school .btn_school{
+  background-color: #173B45;
+color: white;
+padding: 10px 20px;
+border: 2px solid transparent;
+text-align: center;
+display: inline-block;
+border-radius: 5px;
+transition: all 0.3s ease;
+width: 200px;
+margin-bottom: 23px ;
+}
+
+
+
+
+.our_registered_school2 .content-box {
+  display: none;
+  margin-left: 23px;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1); /* Inner shadow */
+
+}
+
+
+.our_registered_school2 .content-box.active {
+  display: block;
+}
+
+.our_registered_school2 .btn_school{
+  background-color: #173B45;
+color: white;
+padding: 10px 20px;
+border: 2px solid transparent;
+text-align: center;
+display: inline-block;
+border-radius: 5px;
+transition: all 0.3s ease;
+width: 200px;
+margin-bottom: 23px ;
+}
+
+.our_registered_school img{
+  width: 400px;
+  height: 400px;
+}
+
+.our_registered_school2 img{
+  width: 400px;
+  height: 400px;
+}
+
+
+/* YOGA COURSES PAGE  */
+
+
+.yoga_courses .yoga-courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto
+;
+}
+
+.yoga_courses .yoga-course-card p{
+  color:white;
+}
+
+.yoga_courses .yoga-course-card {
+  position: relative;
+  width: calc(50% - 25px); /* Two boxes per row */
+  height: 450px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Hover scale effect for the card */
+.yoga_courses .yoga-course-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.yoga_courses .course-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Hover effect to slide the image up */
+.yoga_courses .yoga-course-card:hover .course-img {
+  transform: scale(1.2);
+}
+
+.yoga_courses .course-details {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 20px;
+background: url('./images/uttrakhand_box3.jpg') center center / cover no-repeat;
+color: #fff;
+text-align: center;
+z-index: 2;
+opacity: 0;
+transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+transform: translateY(100%);
+}
+
+/* Add an overlay using a pseudo-element */
+.yoga_courses .course-details::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+z-index: -1; /* Place it behind the text */
+border-radius: inherit; /* Ensures the overlay respects the card's border-radius */
+}
+
+/* Hover effect remains the same */
+.yoga_courses .yoga-course-card:hover .course-details {
+opacity: 1;
+transform: translateY(0);
+}
+
+/* Slide-up effect on hover */
+.yoga_courses .yoga-course-card:hover .course-details {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.yoga_courses .course-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.yoga_courses .course-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.yoga_courses .course-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: #fff;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.yoga_courses .course-button:hover {
+  background-color: #ff3c28;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .yoga_courses .yoga-course-card {
+      width: 100%; /* Full width on mobile */
+  }
+}
+
+
+/* OUR VISION PAGE  */
+
+
+.vision_section .hero-section {
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./images/vision_main.jpg') center center / cover no-repeat;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin: 0px !important;  /* Ensure no extra margin */
+  padding: 0; /* Ensure no padding */
+  top: 0; /* Make sure it sticks to the top */
+}
+
+     .vision_section .hero-section::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.6); /* Dark overlay for text visibility */
+          z-index: 0; /* Ensure it's behind the content */
+      }
+
+     .vision_section .hero-content {
+          position: relative;
+          z-index: 1;
+      }
+
+      .vision_section .hero-content h1 {
+       
+          animation: fadeInDown 1s ease-in-out;
+      }
+x
+       .hero-content p {
+          font-size: 1.2rem;
+          width: 70%;
+          margin: 0 auto;
+          color: white;
+          font-weight: bolder;
+          animation: fadeInUp 1.5s ease-in-out;
+      }
+
+      @keyframes fadeInDown {
+          0% { opacity: 0; transform: translateY(-30px); }
+          100% { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes fadeInUp {
+          0% { opacity: 0; transform: translateY(30px); }
+          100% { opacity: 1; transform: translateY(0); }
+      }
+
+      /* Section Vision Statement */
+     .vision_section .vision-section {
+          padding: 100px 20px;
+          background-color: #fff;
+          text-align: center;
+      }
+
+     .vision_section  .vision-section h2 {
+          font-size: 2.5rem;
+          margin-bottom: 30px;
+          color: #333;
+          text-transform: uppercase;
+      }
+
+     .vision_section .vision-section p {
+          font-size: 1.1rem;
+          width: 80%;
+          margin: 0 auto;
+          line-height: 1.8;
+          color: #666;
+      }
+
+      /* Image with Text Overlay Section */
+     .vision_section .image-text-section {
+          position: relative;
+          height: 400px;
+          margin: 100px 0;
+      }
+
+     .vision_section .image-text-section img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          filter: brightness(0.6);
+      }
+
+     .vision_section .image-text-content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #fff;
+          text-align: center;
+          width: 100%;
+      }
+
+     .vision_section .image-text-content h3 {
+          font-size: 2.5rem;
+          margin-bottom: 20px;
+      }
+
+     .vision_section .image-text-content p {
+          font-size: 1.2rem;
+          width: 60%;
+          margin: 0 auto;
+          color: white;
+          font-size: bold;
+      }
+
+      /* Quote Section */
+     .vision_section .quote-section {
+          background-color: #f7f8fa;
+          padding: 80px 20px;
+          text-align: center;
+          font-style: italic;
+      }
+
+     .vision_section .quote-section h2 {
+          font-size: 2rem;
+          margin-bottom: 20px;
+          color: #FF8225;
+      }
+
+     .vision_section .quote-section p {
+          font-size: 1.5rem;
+          color: #555;
+          width: 70%;
+          margin: 0 auto;
+      }
+
+      /* Call-to-Action Section */
+     .vision_section .cta-section {
+          background-color: #FF8225;
+          padding: 80px 20px;
+          color: #fff;
+          text-align: center;
+      }
+
+     .vision_section .cta-section h3 {
+          font-size: 2rem;
+          margin-bottom: 20px;
+      }
+
+     .vision_section .cta-section a {
+      text-decoration: none;
+          display: inline-block;
+          padding: 10px 30px;
+          background-color: #fff;
+          color: #FF8225;
+          border-radius: 50px;
+          font-size: 1.1rem;
+          transition: background-color 0.3s ease-in-out;
+      }
+
+      .vision_section .cta-section a:hover {
+          background-color: #f0f0f0;
+      }
+
+
+
+
+      /* RESPONSIVE CODE  */
+
+
+       /* Responsive adjustments */
+       @media (max-width: 768px) {
+        .header-left, .header-right {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .header-right {
+          margin-top: 10px;
+        }
+      }
+
+
+       /* Responsive adjustments */
+       @media (max-width: 992px) {
+        .navbar-nav {
+          text-align: center;
+        }
+       
+      }
+
+/* RAW RESPONSIVE */
+@media (max-width: 480px) {
+  h1{
+    font-size:  1.8rem !important;
+  }
+  h1>span{
+    font-size: 1.8rem !important;
+
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h2>span{
+    font-size: 1.5rem;
+  }
+
+  h3{
+    font-size: 1.3rem;
+
+  }
+  h4{
+    font-size: 1rem;
+
+  }
+  h5{
+    font-size: .8rem;
+  }
+
+  .hero-section img{
+    width: 100%;
+  }
+  .contact_us iframe{
+    margin-top: 15px;
+  }
+  /* Styles for mobile phones */
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  h1{
+    font-size:  1.8rem !important;
+  }
+  h1>span{
+    font-size: 1.8rem !important;
+
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h2>span{
+    font-size: 1.5rem;
+  }
+
+  h3{
+    font-size: 1.3rem;
+
+  }
+  h4{
+    font-size: 1rem;
+
+  }
+  h5{
+    font-size: .8rem;
+  }
+}
+

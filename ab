@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SereneSoul</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        /* Custom Styles */
+            .imageContainer {
+                background-size: cover;
+                background-position: center;
+                height: 300px;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+
+            .heading {
+                font-weight: bold;
+            }
+
+            .text__para {
+                margin-bottom: 1.5rem;
+            }
+    </style>
+</head>
+
+<body>
+
+    <section class="Course mb-3">
+        <div class="container mx-auto">
+            <div class="imageContainer mb-3 rounded-lg" style="background-image: url('./images/ourvision_img.png');"></div>
+            <h1 class="heading mb-4">Our Essence</h1>
+            <p class="text__para">
+                The roots of SereneSoul are firmly planted in Ancient Indian Yogic Methodology inspired from Bhagwad Gita, Yoga Sutras of Patanjali, Gheranda Samhita, Hatha Yoga Pradapika and the Upanishads.
+            </p>
+
+            <h1 class="heading mb-4">A Decade of Dedication</h1>
+            <p class="text__para">
+                Over a decade, we’ve nurtured a community of experienced teachers and practitioners. Our international programs reflect years of research and collaboration with renowned Indian yoga schools, creating a platform for a healthier, more enlightened life.
+            </p>
+        </div>
+    </section>
+
+    <section class="Course mb-3">
+        <div class="container mx-auto">
+            <div class="imageContainer mb-3 rounded-lg" style="background-image: url('./images/ourvision_img.png');"></div>
+            <h1 class="heading mb-4">Our Approach</h1>
+            <p class="text__para">
+                SereneSoul offers a systematic application of Yoga’s ancient tradition to modern living. Embracing students’ uniqueness, our approach caters to individual’s strengths and limitations, ensuring safe and fulfilling progress. Our Yoga Sangha, a community of devoted Yoga Masters and Facilitators from India and Nepal, is committed to nurturing dedicated practitioners and teachers, ensuring the timeless wisdom of Yoga flourishes. With these dedicated souls, we offer a transformative journey through authentic yoga practice, emphasizing Yoga Asanas, Meditation, Pranayama, Yoga Philosophy, and Yoga Anatomy. Our unique teaching approach harmonizes age-old yogic teachings with contemporary scientific insights, enriching all aspects of life, from personal growth to professional success.
+            </p>
+
+            <h1 class="heading mb-4">Our Mantra</h1>
+            <p class="text__para">
+                “Lokah Samastah Sukhino Bhavantu” – May all beings everywhere be happy and free. Join us at SereneSoul, where the journey of self-discovery and authentic yoga begins.
+            </p>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
